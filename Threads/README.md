@@ -1341,6 +1341,7 @@ Atomic Integer And Volatile to ensure thread safety
 <br>
 
 ### Use the Parallel Fork/Join Framework
+https://www.youtube.com/watch?v=5wgZYyvIVJk - Fork join Defog tech is good for java
 
 The Fork-Join Framework provides a highly specialized ExecutorService. 
 
