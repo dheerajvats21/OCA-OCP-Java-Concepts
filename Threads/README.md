@@ -1033,6 +1033,8 @@ Producer Consumer Problem with Blocking Queue
 <br> 
 
 ### Use Executors and ThreadPools
+youtube video for executor and thread pools
+https://www.youtube.com/watch?v=sIkG0X4fqs4&list=PLPn4T86dJstfydxMrepAcakR3MSZEHaa5&index=2
 
 With traditional threading, we need to handle:  
 1. Creating and scheduling some Java code for execution and   
