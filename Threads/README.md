@@ -1172,7 +1172,8 @@ A ScheduledThreadPoolExecutor enables tasks to be executed after a delay or at r
 
 ![image alt text](./img_metadata/image_61.png)
 
-If any execution of the task encounters an exception, subsequent executions are suppressed. Otherwise, the task will only terminate via cancellation or termination of the executor. If any execution of this task takes longer than its period, then subsequent executions may start late, but will not concurrently execute.
+For both fixedRate and delay If any execution of the task encounters an exception, subsequent executions are suppressed. Otherwise, the task will only terminate via cancellation or termination of the executor. 
+For fixed rate If any execution of this task takes longer than its period, then subsequent executions may  concurrently execute. there may be an overap. But for fixed delay next task only start after delay from previous task. So no overlap is possible.
 
 <br>
 
